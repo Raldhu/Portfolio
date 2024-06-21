@@ -9,18 +9,19 @@ import {Link} from 'react-scroll'
 
 function Navbar() {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className="mb-20 flex items-center fixed justify-between py-3 top-0 left-0 w-full h-[75px] bg-purple-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100
+">
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-14" src={logo} alt="" />
       </div>
       <div className="m-8 flex gap-3 text-xl">
-        <Link to="hero" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-red-600">Home</Link>
-        <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-red-600">About Me</Link>
-        <Link to="technologies" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-red-600">Technologies</Link>
-        <Link to="education" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-red-600">Education</Link>
-        <Link to="experience" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-red-600">Experience</Link>
-        <Link to="project" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-red-600">Project</Link>
-        <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-red-600">Contact</Link>
+        <Link to="hero" spy={true} smooth={true} offset={-70} duration={500} className=" cursor-pointer hover:text-purple-600">Home</Link>
+        <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-purple-600">About Me</Link>
+        <Link to="technologies" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-purple-600">Technologies</Link>
+        <Link to="education" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-purple-600">Education</Link>
+        <Link to="experience" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-purple-600">Experience</Link>
+        <Link to="project" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-purple-600">Portfolio</Link>
+        <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer hover:text-purple-600">Contact</Link>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
       <a href="https://www.linkedin.com/in/yatin-yadav-iitrpr/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">

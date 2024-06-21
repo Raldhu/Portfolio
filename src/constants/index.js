@@ -81,6 +81,7 @@ export const PROJECTS = [
       "Built with JavaScript, Redux Toolkit for state management, and Ant Design for a sleek UI.",
       "Utilizes Chart.js for dynamic cryptocurrency historical data charts, with data fetched from RapidAPI."],
     technologies: ["JavaScript", "React", "Redux", "RapidAPI", "Chart.js"],
+    downloadLink: "https://cryptonance1.netlify.app/"
   },
   {
     title: "EtherAngel - A CrowdFunding Platform",
@@ -91,6 +92,7 @@ export const PROJECTS = [
       "This app enables the users to create, view, and donate to blockchain-based crowdfunding campaigns, ensuring direct and transparent participation.",
     ],
     technologies: ["React", "Tailwind CSS", "Solidity"],
+    downloadLink: "https://etherangel.netlify.app/"
   },
   {
     title: "Restaurant Website",
@@ -103,6 +105,7 @@ export const PROJECTS = [
       "Leveraged ReactJS for interactive functionality, CSS BEM for maintainable and organized styling, and Figma for design prototyping, resulting in an engaging and accessible restaurant website.",
     ],
     technologies: ["React", "CSS BEM", "Figma"],
+    downloadLink: "https://restaurant34.netlify.app/"
   },
   {
     title: "Memory Game",
@@ -113,6 +116,7 @@ export const PROJECTS = [
       "Utilized CSS animations for enhanced user experience, tested and optimized game for functionality and user feedback",
     ],
     technologies: ["HTML", "CSS", "JavaScript"],
+    downloadLink: "https://memorygame-yatin.netlify.app/"
   },
 ];
 

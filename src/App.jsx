@@ -17,16 +17,14 @@ function App() {
         </div>
         </div>
       <div className="container mx-auto px-8">
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Technologies" element={<section><Technologies /></section>} />
-        <Route path="/Education" element={<section><Education /></section>} />
-        <Route path="/Experience" element={<section><Experience /></section>} />
-        <Route path="/Project" element={<section><Project /></section>} />
-        <Route path="/Contact" element={<section><Contact /></section>} />
-      </Routes>
+      <Navbar className="fixed"/>
+      <section id="hero"><Hero /></section>
+        <section id="about"><About /></section>
+        <section id="technologies"><Technologies /></section>
+        <section id="education"><Education /></section>
+        <section id="experience"><Experience /></section>
+        <section id="project"><Project /></section>
+        <section id="contact"><Contact /></section>
       {/* <Hero/>
       <About/>
       <Technologies/>

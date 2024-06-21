@@ -2,6 +2,8 @@ import React from 'react'
 import { CONTACT } from '../constants'
 import {motion} from "framer-motion"
 import { FaEnvelope } from 'react-icons/fa';
+import { MdPhone } from "react-icons/md";
+import { IoHome } from "react-icons/io5";
 
 function Contact() {
     const handleEmailClick = () => {
@@ -20,12 +22,15 @@ function Contact() {
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0, x:-100}}
             transition={{duration:1}} 
-            className='my-4'>{CONTACT.address}</motion.p>
+            className='my-4 items-center justify-center flex'><IoHome className='mx-2'/>
+            <span>{CONTACT.address}</span></motion.p>
+            
             <motion.p
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0, x:100}}
             transition={{duration:1}} 
-            className='my-4'>{CONTACT.phoneNo}</motion.p>
+            className='my-4 items-center justify-center flex'> <MdPhone className='mx-2'/>
+            <span>{CONTACT.phoneNo}</span></motion.p>
            <div className="flex items-center justify-center">
           <a
             onClick={handleEmailClick}
