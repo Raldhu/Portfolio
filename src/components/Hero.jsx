@@ -13,7 +13,7 @@ const container=(delay)=>({
 
 function Hero() {
   return (
-    <div className=' border-neutral-900 pb-4 lg:mb-35 p-20 my-20'>
+    <div className=' border-neutral-900 lg:pb-4 lg:mb-35 lg:mx-20 lg:my-20 my-20 lg:py-20'>
         <div className='flex flex-wrap'>
             <div className='w-full lg:w-1/2'>
                <div className='flex flex-col items-center lg:items-start'>
@@ -21,13 +21,13 @@ function Hero() {
                    variants={container(0)}
                    initial="hidden"
                    animate="visible"
-                   className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl m-0'>Yatin</motion.h1>
+                   className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl m-0 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'>Yatin</motion.h1>
                    <motion.span 
                    variants={container(0.5)}
                    initial="hidden"
                    animate="visible"
                    className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500
-                   bg-clip-text text-3xl tracking-tight text-transparent'>Web Developer</motion.span>
+                   bg-clip-text text-3xl tracking-tight text-transparent'>Web Developer</motion.span> 
                    <motion.p 
                    variants={container(1)}
                    initial="hidden"
@@ -35,14 +35,14 @@ function Hero() {
                    className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>    
                </div> 
             </div>
-            <div className='w-full lg:w-1/2 lg:p-8'>
-               <div className=' justify-center'>
+            <div className='w-full lg:w-1/2 flex justify-center lg:p-8'>
+               {/* <div className=' flex items-center justify-center'> */}
                 <motion.img
                 initial={{x:100,opacity:0}}
                 animate={{x:0,opacity:1}}
                 transition={{duration:1,delay:1.2}}
-                className='w-1/2 m-4 rounded-3xl stroke-purple-500' src={profilepic} alt=""/>
-               </div>
+                className='w-full sm:w-1/2 lg:w-3/5 m-4 rounded-3xl border-4 border-[#6E6F9B]' src={profilepic} alt=""/>
+               {/* </div> */}
             </div>
         </div>
     </div>
