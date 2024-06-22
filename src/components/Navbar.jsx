@@ -75,7 +75,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer hover:text-red-600"
+          className="cursor-pointer hover:text-purple-600"
         >
           Home
         </Link>
@@ -85,7 +85,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer hover:text-red-600"
+          className="cursor-pointer hover:text-purple-600"
         >
           About Me
         </Link>
@@ -95,7 +95,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer hover:text-red-600"
+          className="cursor-pointer hover:text-purple-600"
         >
           Technologies
         </Link>
@@ -105,7 +105,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer hover:text-red-600"
+          className="cursor-pointer hover:text-purple-600"
         >
           Education
         </Link>
@@ -115,7 +115,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer hover:text-red-600"
+          className="cursor-pointer hover:text-purple-600"
         >
           Experience
         </Link>
@@ -125,7 +125,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer hover:text-red-600"
+          className="cursor-pointer hover:text-purple-600"
         >
           Project
         </Link>
@@ -135,7 +135,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer hover:text-red-600"
+          className="cursor-pointer hover:text-purple-600"
         >
           Contact
         </Link>
@@ -193,7 +193,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer py-6 text-4xl hover:text-red-600"
+          className="cursor-pointer py-6 text-4xl hover:text-purple-600"
         >
           Home
         </Link>
@@ -204,7 +204,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer py-6 text-4xl hover:text-red-600"
+          className="cursor-pointer py-6 text-4xl hover:text-purple-600"
         >
           About Me
         </Link>
@@ -215,7 +215,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer py-6 text-4xl hover:text-red-600"
+          className="cursor-pointer py-6 text-4xl hover:text-purple-600"
         >
           Technologies
         </Link>
@@ -226,7 +226,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer py-6 text-4xl hover:text-red-600"
+          className="cursor-pointer py-6 text-4xl hover:text-purple-600"
         >
           Education
         </Link>
@@ -237,7 +237,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer py-6 text-4xl hover:text-red-600"
+          className="cursor-pointer py-6 text-4xl hover:text-purple-600"
         >
           Experience
         </Link>
@@ -248,7 +248,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer py-6 text-4xl hover:text-red-600"
+          className="cursor-pointer py-6 text-4xl hover:text-purple-600"
         >
           Project
         </Link>
@@ -259,7 +259,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          className="cursor-pointer py-6 text-4xl hover:text-red-600"
+          className="cursor-pointer py-6 text-4xl hover:text-purple-600"
         >
           Contact
         </Link>
