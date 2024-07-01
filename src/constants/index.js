@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a dedicated web and software developer passionate about crafting clean and efficient solutions. I have hands-on experience on languages like HTML, CSS, JavaScript, C/C++, SQL and PostgreSQl. I have honed my skills in technologies like React, Redux, Tailwin CSS and Node.js. With expertise in frontend and backend technologies, I thrive on translating complex ideas into user-friendly applications. From designing intuitive interfaces to optimizing backend architectures, I'm committed to delivering robust software that meets both user needs and business goals.`;
 
@@ -72,6 +73,17 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "We-Chat",
+    image: project5,
+    description:["Developed We-Chat using the MERN stack (MongoDB, Express.js, React.js, Node.js), with a responsive UI built with Chakra UI.",
+      "Implemented user authentication with JWT and bcrypt, including a secure logout feature.",
+      "Added user search functionality to find and add users to chats directly from the database.",
+      "Enabled group chat creation and management where the creator becomes the admin, with options to update group names, add/remove users, and allow users to leave the group.",
+      "Utilized Socket.io for real-time messaging and notifications, ensuring instant communication and real-time updates for message recipients."],
+    technologies: ["JavaScript", "MongoDB", "Express.js", "React", "Node.js", "ChakraUI", "Socket.io"],
+    downloadLink: "https://we-chat-tdyc.onrender.com/"
+  },
   {
     title: "Cryptonance",
     image: project1,
