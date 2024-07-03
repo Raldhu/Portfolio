@@ -6,9 +6,9 @@ import { FaHtml5 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { TbSql } from "react-icons/tb";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { SiChartdotjs } from "react-icons/si";
+import { SiAdobelightroom, SiAdobephotoshop, SiChakraui, SiChartdotjs, SiPostman, SiSocketdotio } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
+import { BiLogoMongodb } from "react-icons/bi";
 import {animate, motion} from 'framer-motion'
 
 const iconVariants=(duration)=>({
@@ -96,7 +96,7 @@ function Technologies() {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <BiLogoPostgresql className='text-7xl text-[#31648C]'/>
+                <BiLogoMongodb className='text-7xl text-[#00E661]'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(5)}
@@ -110,8 +110,50 @@ function Technologies() {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiChartdotjs className='text-7xl text-[#F77173]'/>
+                <SiChakraui className='text-7xl text-[#5AC3C3]'/>
             </motion.div>
+            
+        </motion.div>
+        <motion.div 
+        whileInView={{opacity:1,x:0}}
+        initial={{opacity:0, x:-100}}
+        transition={{duration:2}}
+        className='py-4 flex flex-wrap items-center justify-center gap-4'>
+            <motion.div 
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiSocketdotio className='text-7xl text-[#FFFFFF]'/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(3)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiPostman className='text-7xl text-[#EA6631]'/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(2)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiAdobephotoshop className='text-7xl text-[#2FA3F7]'/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(5)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiAdobelightroom className='text-7xl text-[#2FA3F7]'/>
+            </motion.div>
+            {/* <motion.div 
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiChakraui className='text-7xl text-[#5AC3C3]'/>
+            </motion.div> */}
             
         </motion.div>
     </div>

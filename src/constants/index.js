@@ -4,9 +4,9 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a dedicated web and software developer passionate about crafting clean and efficient solutions. I have hands-on experience on languages like HTML, CSS, JavaScript, C/C++, SQL and PostgreSQl. I have honed my skills in technologies like React, Redux, Tailwin CSS and Node.js. With expertise in frontend and backend technologies, I thrive on translating complex ideas into user-friendly applications. From designing intuitive interfaces to optimizing backend architectures, I'm committed to delivering robust software that meets both user needs and business goals.`;
+export const HERO_CONTENT = `I am a dedicated software engineer passionate about crafting clean and efficient solutions. I have hands-on experience on languages like HTML, CSS, JavaScript, C/C++, SQL and PostgreSQl. I have honed my skills in technologies like React, Redux, Tailwin CSS and Node.js. With expertise in frontend and backend technologies, I thrive on translating complex ideas into user-friendly applications. From designing intuitive interfaces to optimizing backend architectures, I'm committed to delivering robust software that meets both user needs and business goals.`;
 
-export const ABOUT_TEXT = ` Hello! I'm Yatin, a versatile web and software developer. My journey into coding began with a fascination for building functional and aesthetically pleasing websites. Over the years, I've honed my skills in languages like JavaScript, C++ and SQL, alongside frameworks such as React, Redux, and Node.js.
+export const ABOUT_TEXT = ` Hello! I'm Yatin, a versatile software engineer. My journey into coding began with a fascination for building functional and aesthetically pleasing websites. Over the years, I've honed my skills in languages like JavaScript, C++ and SQL, alongside frameworks such as React, Redux, and Node.js.
 
 I thrive on solving complex problems and am passionate about creating seamless user experiences. Whether it's designing responsive interfaces or optimizing database structures, I approach each project with meticulous attention to detail and a focus on scalability and performance.
 
