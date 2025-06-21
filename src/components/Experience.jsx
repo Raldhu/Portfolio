@@ -4,8 +4,7 @@ import { motion } from "framer-motion";
 
 function Experience() {
   return (
-    
-    <div className="border-neutral-900 pb-4 z-50">
+    <div className="pb-4 z-50">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -14,46 +13,57 @@ function Experience() {
       >
         Experience
       </motion.h1>
-      <div>
-        {EXPERIENCES.map((experience, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
-            >
-              <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4"
-            >
-              <h6 className="mb-2 font-semibold">
-                {experience.role}-
-                <span className="text-sm text-purple-100">
-                  {experience.company}
-                </span>
-              </h6>
-              <ul className="mb-4 text-neutral-400 list-disc list-inside">
-                {experience.description.map((desc, idx) => (
-                  <li key={idx}>{desc}</li>
-                ))}
-              </ul>
-              {/* {experience.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
-                >
-                  {tech}
-                </span>
-              ))} */}
-            </motion.div>
+
+      {EXPERIENCES.map((exp, idx) => (
+        <div key={idx} className="mb-12 text-center">
+          <h2 className="text-2xl font-semibold mb-6">
+            {exp.role} <span className="text-purple-300">@ {exp.company}</span>
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-4 md:px-20">
+            {exp.projects.map((project, pIdx) => (
+              <motion.div
+                key={pIdx}
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 50 }}
+                transition={{ duration: 0.6, delay: pIdx * 0.1 }}
+                className="bg-neutral-900 p-4 rounded-2xl shadow-lg text-left"
+              >
+                <div className="flex justify-between items-center mb-2">
+                  <h3 className="text-xl font-semibold text-purple-200">
+                    {project.name}
+                  </h3>
+                  <span className="text-sm text-neutral-400">
+                    {project.year}
+                  </span>
+                </div>
+                <ul className="list-disc list-inside text-neutral-400 mb-3">
+                  {project.description.map((point, i) => (
+                    <li key={i}>{point}</li>
+                  ))}
+                </ul>
+                {project.image && (
+                  <img
+                    src={project.image}
+                    alt={project.name}
+                    className="rounded-lg w-full h-48 object-cover mb-3"
+                  />
+                )}
+                {project.playstore && (
+                  <a
+                    href={project.playstore}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-blue-400 hover:underline"
+                  >
+                    View on Play Store →
+                  </a>
+                )}
+              </motion.div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 }

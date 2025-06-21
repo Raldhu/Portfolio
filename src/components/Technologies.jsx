@@ -4,9 +4,9 @@ import { TbBrandCpp } from "react-icons/tb";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaHtml5 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaJava } from "react-icons/fa";
 import { TbSql } from "react-icons/tb";
-import { SiAdobelightroom, SiAdobephotoshop, SiChakraui, SiChartdotjs, SiPostman, SiSocketdotio } from "react-icons/si";
+import { SiAdobelightroom, SiAdobephotoshop, SiChakraui, SiChartdotjs, SiPostman, SiSocketdotio, SiAndroid, SiKotlin, SiFirebase  } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { BiLogoMongodb } from "react-icons/bi";
 import {animate, motion} from 'framer-motion'
@@ -42,21 +42,21 @@ function Technologies() {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaHtml5 className='text-7xl text-[#F4470B]'/>
+                <FaJava className='text-7xl text-[#F4470B]'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(3)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <IoLogoCss3 className='text-7xl text-[#254BDD]' />
+                <SiKotlin className='text-7xl text-[#254BDD]' />
             </motion.div>
             <motion.div 
             variants={iconVariants(5)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <TbBrandJavascript className='text-7xl text-[#E3C42F]'/>
+                <SiAndroid className='text-7xl text-[#E3C42F]'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(2)}
@@ -110,7 +110,7 @@ function Technologies() {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiChakraui className='text-7xl text-[#5AC3C3]'/>
+                <SiFirebase className='text-7xl text-[#5AC3C3]'/>
             </motion.div>
             
         </motion.div>
@@ -131,21 +131,21 @@ function Technologies() {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiPostman className='text-7xl text-[#EA6631]'/>
+                <FaHtml5 className='text-7xl text-[#EA6631]'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiAdobephotoshop className='text-7xl text-[#2FA3F7]'/>
+                <IoLogoCss3 className='text-7xl text-[#2FA3F7]'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(5)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiAdobelightroom className='text-7xl text-[#2FA3F7]'/>
+                <TbBrandJavascript className='text-7xl text-[#2FA3F7]'/>
             </motion.div>
             {/* <motion.div 
             variants={iconVariants(6)}
