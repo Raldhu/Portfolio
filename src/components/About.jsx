@@ -35,7 +35,8 @@ function About() {
         >
           <div className="lg:pl-8">{paragraphs}</div>
           <a
-            href="https://drive.usercontent.google.com/u/0/uc?id=1902Zz2l51m3IOTbyPp8_EQ1ULsrnbzG1&export=download"
+            // href="https://drive.usercontent.google.com/u/0/uc?id=1902Zz2l51m3IOTbyPp8_EQ1ULsrnbzG1&export=download"
+            href="https://drive.google.com/uc?export=download&id=1SrY_IITSvpBv2_OyHyKkjAD5mMScyv6g"
             className="mx-16 mt-4 inline-block rounded bg-purple-500 px-4 py-2 text-white hover:bg-purple-700"
           >
             Download CV
